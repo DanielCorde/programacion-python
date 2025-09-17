@@ -7,3 +7,7 @@
 
 # Muestre por pantalla el peso en libras
 
+peso = float(input("Dime tu peso en kg: "))
+kg_por_libra = 0.45359237
+peso_en_libras = peso / kg_por_libra
+print (f"Tu peso en libras es : {peso_en_libras}")

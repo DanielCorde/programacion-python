@@ -9,3 +9,9 @@
 # Calcule el IMC (peso / altura^2) (Índice de masa corporal)
 
 # Muestre por pantalla el nombre y el IMC
+
+nombre = input("Dime tu nombre: ")
+peso = float(input("Dime tu peso en kg: "))
+altura = float(input("Dime tu altura en metros: "))
+indice = peso / altura**2
+print(f"Nombre: {nombre}, IMC: {indice}")
